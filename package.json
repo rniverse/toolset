@@ -1,0 +1,34 @@
+{
+  "name": "@realroot/toolset",
+  "version": "1.0.0",
+  "description": "A utility library",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha && npm run lint",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rniverse/toolset.git"
+  },
+  "keywords": [
+    "utils",
+    "toolset",
+    "realroot",
+    "rniverse"
+  ],
+  "author": "rniverse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rniverse/toolset/issues"
+  },
+  "homepage": "https://github.com/rniverse/toolset#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0"
+  }
+}
